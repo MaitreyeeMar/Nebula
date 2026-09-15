@@ -1,0 +1,5 @@
+allocator,total_stall_ns,cxl_fetches,hbm_hits,overflow_events
+hbm_only,131466000000.0,0,11054,131466
+static_partition,22668825600.0,115200,26550,0
+lru,22727713500.0,141750,0,0
+dynamic_joint,19067001088.0,96896,44854,0

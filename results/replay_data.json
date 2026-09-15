@@ -1,0 +1,2270 @@
+{
+  "lru": [
+    {
+      "step": 0,
+      "token": 0,
+      "hits_this_step": 0,
+      "fetches_this_step": 128,
+      "cumulative_hits": 0,
+      "cumulative_fetches": 128,
+      "cum_expert_fetches": 128,
+      "cum_kv_fetches": 0,
+      "experts_resident": 66,
+      "kv_resident": 1,
+      "eviction": null
+    },
+    {
+      "step": 1,
+      "token": 1,
+      "hits_this_step": 0,
+      "fetches_this_step": 129,
+      "cumulative_hits": 0,
+      "cumulative_fetches": 257,
+      "cum_expert_fetches": 256,
+      "cum_kv_fetches": 1,
+      "experts_resident": 66,
+      "kv_resident": 2,
+      "eviction": {
+        "kind": "expert",
+        "key_label": "layer 8, expert 35",
+        "reuse_score": null,
+        "needed_again_at_step": 7,
+        "steps_until_needed": 6
+      }
+    },
+    {
+      "step": 2,
+      "token": 2,
+      "hits_this_step": 0,
+      "fetches_this_step": 130,
+      "cumulative_hits": 0,
+      "cumulative_fetches": 387,
+      "cum_expert_fetches": 384,
+      "cum_kv_fetches": 3,
+      "experts_resident": 66,
+      "kv_resident": 3,
+      "eviction": {
+        "kind": "expert",
+        "key_label": "layer 9, expert 40",
+        "reuse_score": null,
+        "needed_again_at_step": 31,
+        "steps_until_needed": 29
+      }
+    },
+    {
+      "step": 3,
+      "token": 3,
+      "hits_this_step": 0,
+      "fetches_this_step": 131,
+      "cumulative_hits": 0,
+      "cumulative_fetches": 518,
+      "cum_expert_fetches": 512,
+      "cum_kv_fetches": 6,
+      "experts_resident": 66,
+      "kv_resident": 4,
+      "eviction": {
+        "kind": "expert",
+        "key_label": "layer 8, expert 29",
+        "reuse_score": null,
+        "needed_again_at_step": 8,
+        "steps_until_needed": 5
+      }
+    },
+    {
+      "step": 4,
+      "token": 4,
+      "hits_this_step": 0,
+      "fetches_this_step": 132,
+      "cumulative_hits": 0,
+      "cumulative_fetches": 650,
+      "cum_expert_fetches": 640,
+      "cum_kv_fetches": 10,
+      "experts_resident": 66,
+      "kv_resident": 5,
+      "eviction": {
+        "kind": "expert",
+        "key_label": "layer 12, expert 45",
+        "reuse_score": null,
+        "needed_again_at_step": 5,
+        "steps_until_needed": 1
+      }
+    },
+    {
+      "step": 5,
+      "token": 5,
+      "hits_this_step": 0,
+      "fetches_this_step": 133,
+      "cumulative_hits": 0,
+      "cumulative_fetches": 783,
+      "cum_expert_fetches": 768,
+      "cum_kv_fetches": 15,
+      "experts_resident": 66,
+      "kv_resident": 6,
+      "eviction": {
+        "kind": "expert",
+        "key_label": "layer 9, expert 28",
+        "reuse_score": null,
+        "needed_again_at_step": 6,
+        "steps_until_needed": 1
+      }
+    },
+    {
+      "step": 6,
+      "token": 6,
+      "hits_this_step": 0,
+      "fetches_this_step": 134,
+      "cumulative_hits": 0,
+      "cumulative_fetches": 917,
+      "cum_expert_fetches": 896,
+      "cum_kv_fetches": 21,
+      "experts_resident": 66,
+      "kv_resident": 7,
+      "eviction": {
+        "kind": "expert",
+        "key_label": "layer 12, expert 45",
+        "reuse_score": null,
+        "needed_again_at_step": 9,
+        "steps_until_needed": 3
+      }
+    },
+    {
+      "step": 7,
+      "token": 7,
+      "hits_this_step": 0,
+      "fetches_this_step": 135,
+      "cumulative_hits": 0,
+      "cumulative_fetches": 1052,
+      "cum_expert_fetches": 1024,
+      "cum_kv_fetches": 28,
+      "experts_resident": 66,
+      "kv_resident": 8,
+      "eviction": {
+        "kind": "expert",
+        "key_label": "layer 9, expert 28",
+        "reuse_score": null,
+        "needed_again_at_step": 11,
+        "steps_until_needed": 4
+      }
+    },
+    {
+      "step": 8,
+      "token": 8,
+      "hits_this_step": 0,
+      "fetches_this_step": 136,
+      "cumulative_hits": 0,
+      "cumulative_fetches": 1188,
+      "cum_expert_fetches": 1152,
+      "cum_kv_fetches": 36,
+      "experts_resident": 66,
+      "kv_resident": 9,
+      "eviction": {
+        "kind": "expert",
+        "key_label": "layer 13, expert 62",
+        "reuse_score": null,
+        "needed_again_at_step": 10,
+        "steps_until_needed": 2
+      }
+    },
+    {
+      "step": 9,
+      "token": 9,
+      "hits_this_step": 0,
+      "fetches_this_step": 137,
+      "cumulative_hits": 0,
+      "cumulative_fetches": 1325,
+      "cum_expert_fetches": 1280,
+      "cum_kv_fetches": 45,
+      "experts_resident": 66,
+      "kv_resident": 10,
+      "eviction": {
+        "kind": "expert",
+        "key_label": "layer 8, expert 35",
+        "reuse_score": null,
+        "needed_again_at_step": 12,
+        "steps_until_needed": 3
+      }
+    },
+    {
+      "step": 10,
+      "token": 10,
+      "hits_this_step": 0,
+      "fetches_this_step": 138,
+      "cumulative_hits": 0,
+      "cumulative_fetches": 1463,
+      "cum_expert_fetches": 1408,
+      "cum_kv_fetches": 55,
+      "experts_resident": 66,
+      "kv_resident": 11,
+      "eviction": {
+        "kind": "expert",
+        "key_label": "layer 8, expert 29",
+        "reuse_score": null,
+        "needed_again_at_step": 19,
+        "steps_until_needed": 9
+      }
+    },
+    {
+      "step": 11,
+      "token": 11,
+      "hits_this_step": 0,
+      "fetches_this_step": 139,
+      "cumulative_hits": 0,
+      "cumulative_fetches": 1602,
+      "cum_expert_fetches": 1536,
+      "cum_kv_fetches": 66,
+      "experts_resident": 66,
+      "kv_resident": 12,
+      "eviction": {
+        "kind": "expert",
+        "key_label": "layer 12, expert 45",
+        "reuse_score": null,
+        "needed_again_at_step": 13,
+        "steps_until_needed": 2
+      }
+    },
+    {
+      "step": 12,
+      "token": 12,
+      "hits_this_step": 0,
+      "fetches_this_step": 140,
+      "cumulative_hits": 0,
+      "cumulative_fetches": 1742,
+      "cum_expert_fetches": 1664,
+      "cum_kv_fetches": 78,
+      "experts_resident": 66,
+      "kv_resident": 13,
+      "eviction": {
+        "kind": "expert",
+        "key_label": "layer 9, expert 28",
+        "reuse_score": null,
+        "needed_again_at_step": 15,
+        "steps_until_needed": 3
+      }
+    },
+    {
+      "step": 13,
+      "token": 13,
+      "hits_this_step": 0,
+      "fetches_this_step": 141,
+      "cumulative_hits": 0,
+      "cumulative_fetches": 1883,
+      "cum_expert_fetches": 1792,
+      "cum_kv_fetches": 91,
+      "experts_resident": 66,
+      "kv_resident": 14,
+      "eviction": {
+        "kind": "expert",
+        "key_label": "layer 8, expert 35",
+        "reuse_score": null,
+        "needed_again_at_step": 18,
+        "steps_until_needed": 5
+      }
+    },
+    {
+      "step": 14,
+      "token": 14,
+      "hits_this_step": 0,
+      "fetches_this_step": 142,
+      "cumulative_hits": 0,
+      "cumulative_fetches": 2025,
+      "cum_expert_fetches": 1920,
+      "cum_kv_fetches": 105,
+      "experts_resident": 66,
+      "kv_resident": 15,
+      "eviction": {
+        "kind": "expert",
+        "key_label": "layer 14, expert 42",
+        "reuse_score": null,
+        "needed_again_at_step": 19,
+        "steps_until_needed": 5
+      }
+    },
+    {
+      "step": 15,
+      "token": 15,
+      "hits_this_step": 0,
+      "fetches_this_step": 143,
+      "cumulative_hits": 0,
+      "cumulative_fetches": 2168,
+      "cum_expert_fetches": 2048,
+      "cum_kv_fetches": 120,
+      "experts_resident": 66,
+      "kv_resident": 16,
+      "eviction": {
+        "kind": "expert",
+        "key_label": "layer 12, expert 45",
+        "reuse_score": null,
+        "needed_again_at_step": 24,
+        "steps_until_needed": 9
+      }
+    },
+    {
+      "step": 16,
+      "token": 16,
+      "hits_this_step": 0,
+      "fetches_this_step": 144,
+      "cumulative_hits": 0,
+      "cumulative_fetches": 2312,
+      "cum_expert_fetches": 2176,
+      "cum_kv_fetches": 136,
+      "experts_resident": 66,
+      "kv_resident": 17,
+      "eviction": {
+        "kind": "expert",
+        "key_label": "layer 9, expert 28",
+        "reuse_score": null,
+        "needed_again_at_step": 32,
+        "steps_until_needed": 16
+      }
+    },
+    {
+      "step": 17,
+      "token": 17,
+      "hits_this_step": 0,
+      "fetches_this_step": 145,
+      "cumulative_hits": 0,
+      "cumulative_fetches": 2457,
+      "cum_expert_fetches": 2304,
+      "cum_kv_fetches": 153,
+      "experts_resident": 66,
+      "kv_resident": 18,
+      "eviction": {
+        "kind": "expert",
+        "key_label": "layer 12, expert 51",
+        "reuse_score": null,
+        "needed_again_at_step": 20,
+        "steps_until_needed": 3
+      }
+    },
+    {
+      "step": 18,
+      "token": 18,
+      "hits_this_step": 0,
+      "fetches_this_step": 146,
+      "cumulative_hits": 0,
+      "cumulative_fetches": 2603,
+      "cum_expert_fetches": 2432,
+      "cum_kv_fetches": 171,
+      "experts_resident": 66,
+      "kv_resident": 19,
+      "eviction": {
+        "kind": "expert",
+        "key_label": "layer 12, expert 2",
+        "reuse_score": null,
+        "needed_again_at_step": 21,
+        "steps_until_needed": 3
+      }
+    },
+    {
+      "step": 19,
+      "token": 19,
+      "hits_this_step": 0,
+      "fetches_this_step": 147,
+      "cumulative_hits": 0,
+      "cumulative_fetches": 2750,
+      "cum_expert_fetches": 2560,
+      "cum_kv_fetches": 190,
+      "experts_resident": 66,
+      "kv_resident": 20,
+      "eviction": {
+        "kind": "expert",
+        "key_label": "layer 14, expert 54",
+        "reuse_score": null,
+        "needed_again_at_step": 22,
+        "steps_until_needed": 3
+      }
+    },
+    {
+      "step": 20,
+      "token": 20,
+      "hits_this_step": 0,
+      "fetches_this_step": 148,
+      "cumulative_hits": 0,
+      "cumulative_fetches": 2898,
+      "cum_expert_fetches": 2688,
+      "cum_kv_fetches": 210,
+      "experts_resident": 66,
+      "kv_resident": 21,
+      "eviction": {
+        "kind": "expert",
+        "key_label": "layer 8, expert 26",
+        "reuse_score": null,
+        "needed_again_at_step": 31,
+        "steps_until_needed": 11
+      }
+    },
+    {
+      "step": 21,
+      "token": 21,
+      "hits_this_step": 0,
+      "fetches_this_step": 149,
+      "cumulative_hits": 0,
+      "cumulative_fetches": 3047,
+      "cum_expert_fetches": 2816,
+      "cum_kv_fetches": 231,
+      "experts_resident": 66,
+      "kv_resident": 22,
+      "eviction": {
+        "kind": "expert",
+        "key_label": "layer 8, expert 29",
+        "reuse_score": null,
+        "needed_again_at_step": 23,
+        "steps_until_needed": 2
+      }
+    },
+    {
+      "step": 22,
+      "token": 22,
+      "hits_this_step": 0,
+      "fetches_this_step": 150,
+      "cumulative_hits": 0,
+      "cumulative_fetches": 3197,
+      "cum_expert_fetches": 2944,
+      "cum_kv_fetches": 253,
+      "experts_resident": 66,
+      "kv_resident": 23,
+      "eviction": {
+        "kind": "expert",
+        "key_label": "layer 12, expert 51",
+        "reuse_score": null,
+        "needed_again_at_step": 23,
+        "steps_until_needed": 1
+      }
+    },
+    {
+      "step": 23,
+      "token": 23,
+      "hits_this_step": 0,
+      "fetches_this_step": 151,
+      "cumulative_hits": 0,
+      "cumulative_fetches": 3348,
+      "cum_expert_fetches": 3072,
+      "cum_kv_fetches": 276,
+      "experts_resident": 66,
+      "kv_resident": 24,
+      "eviction": {
+        "kind": "expert",
+        "key_label": "layer 7, expert 9",
+        "reuse_score": null,
+        "needed_again_at_step": null,
+        "steps_until_needed": null
+      }
+    },
+    {
+      "step": 24,
+      "token": 24,
+      "hits_this_step": 0,
+      "fetches_this_step": 152,
+      "cumulative_hits": 0,
+      "cumulative_fetches": 3500,
+      "cum_expert_fetches": 3200,
+      "cum_kv_fetches": 300,
+      "experts_resident": 66,
+      "kv_resident": 25,
+      "eviction": {
+        "kind": "expert",
+        "key_label": "layer 14, expert 60",
+        "reuse_score": null,
+        "needed_again_at_step": 27,
+        "steps_until_needed": 3
+      }
+    },
+    {
+      "step": 25,
+      "token": 25,
+      "hits_this_step": 0,
+      "fetches_this_step": 153,
+      "cumulative_hits": 0,
+      "cumulative_fetches": 3653,
+      "cum_expert_fetches": 3328,
+      "cum_kv_fetches": 325,
+      "experts_resident": 66,
+      "kv_resident": 26,
+      "eviction": {
+        "kind": "expert",
+        "key_label": "layer 8, expert 29",
+        "reuse_score": null,
+        "needed_again_at_step": 27,
+        "steps_until_needed": 2
+      }
+    },
+    {
+      "step": 26,
+      "token": 26,
+      "hits_this_step": 0,
+      "fetches_this_step": 154,
+      "cumulative_hits": 0,
+      "cumulative_fetches": 3807,
+      "cum_expert_fetches": 3456,
+      "cum_kv_fetches": 351,
+      "experts_resident": 66,
+      "kv_resident": 27,
+      "eviction": {
+        "kind": "expert",
+        "key_label": "layer 12, expert 51",
+        "reuse_score": null,
+        "needed_again_at_step": 28,
+        "steps_until_needed": 2
+      }
+    },
+    {
+      "step": 27,
+      "token": 27,
+      "hits_this_step": 0,
+      "fetches_this_step": 155,
+      "cumulative_hits": 0,
+      "cumulative_fetches": 3962,
+      "cum_expert_fetches": 3584,
+      "cum_kv_fetches": 378,
+      "experts_resident": 66,
+      "kv_resident": 28,
+      "eviction": {
+        "kind": "expert",
+        "key_label": "layer 8, expert 35",
+        "reuse_score": null,
+        "needed_again_at_step": 47,
+        "steps_until_needed": 20
+      }
+    },
+    {
+      "step": 28,
+      "token": 28,
+      "hits_this_step": 0,
+      "fetches_this_step": 156,
+      "cumulative_hits": 0,
+      "cumulative_fetches": 4118,
+      "cum_expert_fetches": 3712,
+      "cum_kv_fetches": 406,
+      "experts_resident": 66,
+      "kv_resident": 29,
+      "eviction": {
+        "kind": "expert",
+        "key_label": "layer 11, expert 28",
+        "reuse_score": null,
+        "needed_again_at_step": 39,
+        "steps_until_needed": 11
+      }
+    },
+    {
+      "step": 29,
+      "token": 29,
+      "hits_this_step": 0,
+      "fetches_this_step": 157,
+      "cumulative_hits": 0,
+      "cumulative_fetches": 4275,
+      "cum_expert_fetches": 3840,
+      "cum_kv_fetches": 435,
+      "experts_resident": 66,
+      "kv_resident": 30,
+      "eviction": {
+        "kind": "expert",
+        "key_label": "layer 8, expert 29",
+        "reuse_score": null,
+        "needed_again_at_step": 47,
+        "steps_until_needed": 18
+      }
+    },
+    {
+      "step": 30,
+      "token": 30,
+      "hits_this_step": 0,
+      "fetches_this_step": 158,
+      "cumulative_hits": 0,
+      "cumulative_fetches": 4433,
+      "cum_expert_fetches": 3968,
+      "cum_kv_fetches": 465,
+      "experts_resident": 66,
+      "kv_resident": 31,
+      "eviction": {
+        "kind": "expert",
+        "key_label": "layer 14, expert 42",
+        "reuse_score": null,
+        "needed_again_at_step": 33,
+        "steps_until_needed": 3
+      }
+    },
+    {
+      "step": 31,
+      "token": 31,
+      "hits_this_step": 0,
+      "fetches_this_step": 159,
+      "cumulative_hits": 0,
+      "cumulative_fetches": 4592,
+      "cum_expert_fetches": 4096,
+      "cum_kv_fetches": 496,
+      "experts_resident": 66,
+      "kv_resident": 32,
+      "eviction": {
+        "kind": "expert",
+        "key_label": "layer 12, expert 45",
+        "reuse_score": null,
+        "needed_again_at_step": 32,
+        "steps_until_needed": 1
+      }
+    },
+    {
+      "step": 32,
+      "token": 32,
+      "hits_this_step": 0,
+      "fetches_this_step": 160,
+      "cumulative_hits": 0,
+      "cumulative_fetches": 4752,
+      "cum_expert_fetches": 4224,
+      "cum_kv_fetches": 528,
+      "experts_resident": 66,
+      "kv_resident": 33,
+      "eviction": {
+        "kind": "expert",
+        "key_label": "layer 8, expert 26",
+        "reuse_score": null,
+        "needed_again_at_step": 52,
+        "steps_until_needed": 20
+      }
+    },
+    {
+      "step": 33,
+      "token": 33,
+      "hits_this_step": 0,
+      "fetches_this_step": 161,
+      "cumulative_hits": 0,
+      "cumulative_fetches": 4913,
+      "cum_expert_fetches": 4352,
+      "cum_kv_fetches": 561,
+      "experts_resident": 66,
+      "kv_resident": 34,
+      "eviction": {
+        "kind": "expert",
+        "key_label": "layer 9, expert 28",
+        "reuse_score": null,
+        "needed_again_at_step": 36,
+        "steps_until_needed": 3
+      }
+    },
+    {
+      "step": 34,
+      "token": 34,
+      "hits_this_step": 0,
+      "fetches_this_step": 162,
+      "cumulative_hits": 0,
+      "cumulative_fetches": 5075,
+      "cum_expert_fetches": 4480,
+      "cum_kv_fetches": 595,
+      "experts_resident": 66,
+      "kv_resident": 35,
+      "eviction": {
+        "kind": "expert",
+        "key_label": "layer 12, expert 45",
+        "reuse_score": null,
+        "needed_again_at_step": 38,
+        "steps_until_needed": 4
+      }
+    },
+    {
+      "step": 35,
+      "token": 35,
+      "hits_this_step": 0,
+      "fetches_this_step": 163,
+      "cumulative_hits": 0,
+      "cumulative_fetches": 5238,
+      "cum_expert_fetches": 4608,
+      "cum_kv_fetches": 630,
+      "experts_resident": 66,
+      "kv_resident": 36,
+      "eviction": {
+        "kind": "expert",
+        "key_label": "layer 12, expert 57",
+        "reuse_score": null,
+        "needed_again_at_step": 39,
+        "steps_until_needed": 4
+      }
+    },
+    {
+      "step": 36,
+      "token": 36,
+      "hits_this_step": 0,
+      "fetches_this_step": 164,
+      "cumulative_hits": 0,
+      "cumulative_fetches": 5402,
+      "cum_expert_fetches": 4736,
+      "cum_kv_fetches": 666,
+      "experts_resident": 66,
+      "kv_resident": 37,
+      "eviction": {
+        "kind": "expert",
+        "key_label": "layer 7, expert 12",
+        "reuse_score": null,
+        "needed_again_at_step": 39,
+        "steps_until_needed": 3
+      }
+    },
+    {
+      "step": 37,
+      "token": 37,
+      "hits_this_step": 0,
+      "fetches_this_step": 165,
+      "cumulative_hits": 0,
+      "cumulative_fetches": 5567,
+      "cum_expert_fetches": 4864,
+      "cum_kv_fetches": 703,
+      "experts_resident": 66,
+      "kv_resident": 38,
+      "eviction": {
+        "kind": "expert",
+        "key_label": "layer 14, expert 52",
+        "reuse_score": null,
+        "needed_again_at_step": 43,
+        "steps_until_needed": 6
+      }
+    },
+    {
+      "step": 38,
+      "token": 38,
+      "hits_this_step": 0,
+      "fetches_this_step": 166,
+      "cumulative_hits": 0,
+      "cumulative_fetches": 5733,
+      "cum_expert_fetches": 4992,
+      "cum_kv_fetches": 741,
+      "experts_resident": 66,
+      "kv_resident": 39,
+      "eviction": {
+        "kind": "expert",
+        "key_label": "layer 12, expert 8",
+        "reuse_score": null,
+        "needed_again_at_step": 43,
+        "steps_until_needed": 5
+      }
+    },
+    {
+      "step": 39,
+      "token": 39,
+      "hits_this_step": 0,
+      "fetches_this_step": 167,
+      "cumulative_hits": 0,
+      "cumulative_fetches": 5900,
+      "cum_expert_fetches": 5120,
+      "cum_kv_fetches": 780,
+      "experts_resident": 66,
+      "kv_resident": 40,
+      "eviction": {
+        "kind": "expert",
+        "key_label": "layer 12, expert 45",
+        "reuse_score": null,
+        "needed_again_at_step": 47,
+        "steps_until_needed": 8
+      }
+    },
+    {
+      "step": 40,
+      "token": 40,
+      "hits_this_step": 0,
+      "fetches_this_step": 168,
+      "cumulative_hits": 0,
+      "cumulative_fetches": 6068,
+      "cum_expert_fetches": 5248,
+      "cum_kv_fetches": 820,
+      "experts_resident": 66,
+      "kv_resident": 41,
+      "eviction": {
+        "kind": "expert",
+        "key_label": "layer 7, expert 0",
+        "reuse_score": null,
+        "needed_again_at_step": 41,
+        "steps_until_needed": 1
+      }
+    },
+    {
+      "step": 41,
+      "token": 41,
+      "hits_this_step": 0,
+      "fetches_this_step": 169,
+      "cumulative_hits": 0,
+      "cumulative_fetches": 6237,
+      "cum_expert_fetches": 5376,
+      "cum_kv_fetches": 861,
+      "experts_resident": 66,
+      "kv_resident": 42,
+      "eviction": {
+        "kind": "expert",
+        "key_label": "layer 12, expert 51",
+        "reuse_score": null,
+        "needed_again_at_step": 42,
+        "steps_until_needed": 1
+      }
+    },
+    {
+      "step": 42,
+      "token": 42,
+      "hits_this_step": 0,
+      "fetches_this_step": 170,
+      "cumulative_hits": 0,
+      "cumulative_fetches": 6407,
+      "cum_expert_fetches": 5504,
+      "cum_kv_fetches": 903,
+      "experts_resident": 66,
+      "kv_resident": 43,
+      "eviction": {
+        "kind": "expert",
+        "key_label": "layer 13, expert 59",
+        "reuse_score": null,
+        "needed_again_at_step": null,
+        "steps_until_needed": null
+      }
+    },
+    {
+      "step": 43,
+      "token": 43,
+      "hits_this_step": 0,
+      "fetches_this_step": 171,
+      "cumulative_hits": 0,
+      "cumulative_fetches": 6578,
+      "cum_expert_fetches": 5632,
+      "cum_kv_fetches": 946,
+      "experts_resident": 66,
+      "kv_resident": 44,
+      "eviction": {
+        "kind": "expert",
+        "key_label": "layer 12, expert 51",
+        "reuse_score": null,
+        "needed_again_at_step": 44,
+        "steps_until_needed": 1
+      }
+    },
+    {
+      "step": 44,
+      "token": 44,
+      "hits_this_step": 0,
+      "fetches_this_step": 172,
+      "cumulative_hits": 0,
+      "cumulative_fetches": 6750,
+      "cum_expert_fetches": 5760,
+      "cum_kv_fetches": 990,
+      "experts_resident": 66,
+      "kv_resident": 45,
+      "eviction": {
+        "kind": "expert",
+        "key_label": "layer 11, expert 28",
+        "reuse_score": null,
+        "needed_again_at_step": 45,
+        "steps_until_needed": 1
+      }
+    },
+    {
+      "step": 45,
+      "token": 45,
+      "hits_this_step": 0,
+      "fetches_this_step": 173,
+      "cumulative_hits": 0,
+      "cumulative_fetches": 6923,
+      "cum_expert_fetches": 5888,
+      "cum_kv_fetches": 1035,
+      "experts_resident": 66,
+      "kv_resident": 46,
+      "eviction": {
+        "kind": "expert",
+        "key_label": "layer 12, expert 51",
+        "reuse_score": null,
+        "needed_again_at_step": 47,
+        "steps_until_needed": 2
+      }
+    },
+    {
+      "step": 46,
+      "token": 46,
+      "hits_this_step": 0,
+      "fetches_this_step": 174,
+      "cumulative_hits": 0,
+      "cumulative_fetches": 7097,
+      "cum_expert_fetches": 6016,
+      "cum_kv_fetches": 1081,
+      "experts_resident": 66,
+      "kv_resident": 47,
+      "eviction": {
+        "kind": "expert",
+        "key_label": "layer 11, expert 28",
+        "reuse_score": null,
+        "needed_again_at_step": null,
+        "steps_until_needed": null
+      }
+    },
+    {
+      "step": 47,
+      "token": 47,
+      "hits_this_step": 0,
+      "fetches_this_step": 175,
+      "cumulative_hits": 0,
+      "cumulative_fetches": 7272,
+      "cum_expert_fetches": 6144,
+      "cum_kv_fetches": 1128,
+      "experts_resident": 66,
+      "kv_resident": 48,
+      "eviction": {
+        "kind": "expert",
+        "key_label": "layer 10, expert 23",
+        "reuse_score": null,
+        "needed_again_at_step": 49,
+        "steps_until_needed": 2
+      }
+    },
+    {
+      "step": 48,
+      "token": 48,
+      "hits_this_step": 0,
+      "fetches_this_step": 176,
+      "cumulative_hits": 0,
+      "cumulative_fetches": 7448,
+      "cum_expert_fetches": 6272,
+      "cum_kv_fetches": 1176,
+      "experts_resident": 66,
+      "kv_resident": 49,
+      "eviction": {
+        "kind": "expert",
+        "key_label": "layer 10, expert 4",
+        "reuse_score": null,
+        "needed_again_at_step": 57,
+        "steps_until_needed": 9
+      }
+    },
+    {
+      "step": 49,
+      "token": 49,
+      "hits_this_step": 0,
+      "fetches_this_step": 177,
+      "cumulative_hits": 0,
+      "cumulative_fetches": 7625,
+      "cum_expert_fetches": 6400,
+      "cum_kv_fetches": 1225,
+      "experts_resident": 66,
+      "kv_resident": 50,
+      "eviction": {
+        "kind": "expert",
+        "key_label": "layer 8, expert 29",
+        "reuse_score": null,
+        "needed_again_at_step": null,
+        "steps_until_needed": null
+      }
+    },
+    {
+      "step": 50,
+      "token": 50,
+      "hits_this_step": 0,
+      "fetches_this_step": 178,
+      "cumulative_hits": 0,
+      "cumulative_fetches": 7803,
+      "cum_expert_fetches": 6528,
+      "cum_kv_fetches": 1275,
+      "experts_resident": 66,
+      "kv_resident": 51,
+      "eviction": {
+        "kind": "expert",
+        "key_label": "layer 7, expert 0",
+        "reuse_score": null,
+        "needed_again_at_step": 53,
+        "steps_until_needed": 3
+      }
+    },
+    {
+      "step": 51,
+      "token": 51,
+      "hits_this_step": 0,
+      "fetches_this_step": 179,
+      "cumulative_hits": 0,
+      "cumulative_fetches": 7982,
+      "cum_expert_fetches": 6656,
+      "cum_kv_fetches": 1326,
+      "experts_resident": 66,
+      "kv_resident": 52,
+      "eviction": {
+        "kind": "expert",
+        "key_label": "layer 14, expert 42",
+        "reuse_score": null,
+        "needed_again_at_step": 56,
+        "steps_until_needed": 5
+      }
+    },
+    {
+      "step": 52,
+      "token": 52,
+      "hits_this_step": 0,
+      "fetches_this_step": 180,
+      "cumulative_hits": 0,
+      "cumulative_fetches": 8162,
+      "cum_expert_fetches": 6784,
+      "cum_kv_fetches": 1378,
+      "experts_resident": 66,
+      "kv_resident": 53,
+      "eviction": {
+        "kind": "expert",
+        "key_label": "layer 9, expert 28",
+        "reuse_score": null,
+        "needed_again_at_step": 53,
+        "steps_until_needed": 1
+      }
+    },
+    {
+      "step": 53,
+      "token": 53,
+      "hits_this_step": 0,
+      "fetches_this_step": 181,
+      "cumulative_hits": 0,
+      "cumulative_fetches": 8343,
+      "cum_expert_fetches": 6912,
+      "cum_kv_fetches": 1431,
+      "experts_resident": 66,
+      "kv_resident": 54,
+      "eviction": {
+        "kind": "expert",
+        "key_label": "layer 8, expert 26",
+        "reuse_score": null,
+        "needed_again_at_step": null,
+        "steps_until_needed": null
+      }
+    },
+    {
+      "step": 54,
+      "token": 54,
+      "hits_this_step": 0,
+      "fetches_this_step": 182,
+      "cumulative_hits": 0,
+      "cumulative_fetches": 8525,
+      "cum_expert_fetches": 7040,
+      "cum_kv_fetches": 1485,
+      "experts_resident": 66,
+      "kv_resident": 55,
+      "eviction": {
+        "kind": "expert",
+        "key_label": "layer 9, expert 28",
+        "reuse_score": null,
+        "needed_again_at_step": 55,
+        "steps_until_needed": 1
+      }
+    },
+    {
+      "step": 55,
+      "token": 55,
+      "hits_this_step": 0,
+      "fetches_this_step": 183,
+      "cumulative_hits": 0,
+      "cumulative_fetches": 8708,
+      "cum_expert_fetches": 7168,
+      "cum_kv_fetches": 1540,
+      "experts_resident": 66,
+      "kv_resident": 56,
+      "eviction": {
+        "kind": "expert",
+        "key_label": "layer 12, expert 51",
+        "reuse_score": null,
+        "needed_again_at_step": 56,
+        "steps_until_needed": 1
+      }
+    },
+    {
+      "step": 56,
+      "token": 56,
+      "hits_this_step": 0,
+      "fetches_this_step": 184,
+      "cumulative_hits": 0,
+      "cumulative_fetches": 8892,
+      "cum_expert_fetches": 7296,
+      "cum_kv_fetches": 1596,
+      "experts_resident": 66,
+      "kv_resident": 57,
+      "eviction": {
+        "kind": "expert",
+        "key_label": "layer 9, expert 28",
+        "reuse_score": null,
+        "needed_again_at_step": null,
+        "steps_until_needed": null
+      }
+    },
+    {
+      "step": 57,
+      "token": 57,
+      "hits_this_step": 0,
+      "fetches_this_step": 185,
+      "cumulative_hits": 0,
+      "cumulative_fetches": 9077,
+      "cum_expert_fetches": 7424,
+      "cum_kv_fetches": 1653,
+      "experts_resident": 66,
+      "kv_resident": 58,
+      "eviction": {
+        "kind": "expert",
+        "key_label": "layer 15, expert 19",
+        "reuse_score": null,
+        "needed_again_at_step": null,
+        "steps_until_needed": null
+      }
+    },
+    {
+      "step": 58,
+      "token": 58,
+      "hits_this_step": 0,
+      "fetches_this_step": 186,
+      "cumulative_hits": 0,
+      "cumulative_fetches": 9263,
+      "cum_expert_fetches": 7552,
+      "cum_kv_fetches": 1711,
+      "experts_resident": 66,
+      "kv_resident": 59,
+      "eviction": {
+        "kind": "expert",
+        "key_label": "layer 12, expert 45",
+        "reuse_score": null,
+        "needed_again_at_step": 59,
+        "steps_until_needed": 1
+      }
+    },
+    {
+      "step": 59,
+      "token": 59,
+      "hits_this_step": 0,
+      "fetches_this_step": 187,
+      "cumulative_hits": 0,
+      "cumulative_fetches": 9450,
+      "cum_expert_fetches": 7680,
+      "cum_kv_fetches": 1770,
+      "experts_resident": 66,
+      "kv_resident": 60,
+      "eviction": {
+        "kind": "expert",
+        "key_label": "layer 10, expert 23",
+        "reuse_score": null,
+        "needed_again_at_step": null,
+        "steps_until_needed": null
+      }
+    }
+  ],
+  "dynamic_joint": [
+    {
+      "step": 0,
+      "token": 0,
+      "hits_this_step": 0,
+      "fetches_this_step": 128,
+      "cumulative_hits": 0,
+      "cumulative_fetches": 128,
+      "cum_expert_fetches": 128,
+      "cum_kv_fetches": 0,
+      "experts_resident": 66,
+      "kv_resident": 1,
+      "eviction": null
+    },
+    {
+      "step": 1,
+      "token": 1,
+      "hits_this_step": 1,
+      "fetches_this_step": 128,
+      "cumulative_hits": 1,
+      "cumulative_fetches": 256,
+      "cum_expert_fetches": 256,
+      "cum_kv_fetches": 0,
+      "experts_resident": 66,
+      "kv_resident": 2,
+      "eviction": {
+        "kind": "expert",
+        "key_label": "layer 8, expert 35",
+        "reuse_score": 1.0,
+        "needed_again_at_step": 7,
+        "steps_until_needed": 6
+      }
+    },
+    {
+      "step": 2,
+      "token": 2,
+      "hits_this_step": 2,
+      "fetches_this_step": 128,
+      "cumulative_hits": 3,
+      "cumulative_fetches": 384,
+      "cum_expert_fetches": 384,
+      "cum_kv_fetches": 0,
+      "experts_resident": 66,
+      "kv_resident": 3,
+      "eviction": {
+        "kind": "expert",
+        "key_label": "layer 3, expert 23",
+        "reuse_score": 1.99,
+        "needed_again_at_step": 12,
+        "steps_until_needed": 10
+      }
+    },
+    {
+      "step": 3,
+      "token": 3,
+      "hits_this_step": 20,
+      "fetches_this_step": 111,
+      "cumulative_hits": 23,
+      "cumulative_fetches": 495,
+      "cum_expert_fetches": 495,
+      "cum_kv_fetches": 0,
+      "experts_resident": 66,
+      "kv_resident": 4,
+      "eviction": {
+        "kind": "expert",
+        "key_label": "layer 12, expert 54",
+        "reuse_score": 2.97,
+        "needed_again_at_step": 8,
+        "steps_until_needed": 5
+      }
+    },
+    {
+      "step": 4,
+      "token": 4,
+      "hits_this_step": 29,
+      "fetches_this_step": 103,
+      "cumulative_hits": 52,
+      "cumulative_fetches": 598,
+      "cum_expert_fetches": 598,
+      "cum_kv_fetches": 0,
+      "experts_resident": 66,
+      "kv_resident": 5,
+      "eviction": {
+        "kind": "expert",
+        "key_label": "layer 3, expert 61",
+        "reuse_score": 2.97,
+        "needed_again_at_step": 7,
+        "steps_until_needed": 3
+      }
+    },
+    {
+      "step": 5,
+      "token": 5,
+      "hits_this_step": 56,
+      "fetches_this_step": 77,
+      "cumulative_hits": 108,
+      "cumulative_fetches": 675,
+      "cum_expert_fetches": 675,
+      "cum_kv_fetches": 0,
+      "experts_resident": 66,
+      "kv_resident": 6,
+      "eviction": {
+        "kind": "expert",
+        "key_label": "layer 7, expert 45",
+        "reuse_score": 2.96,
+        "needed_again_at_step": 8,
+        "steps_until_needed": 3
+      }
+    },
+    {
+      "step": 6,
+      "token": 6,
+      "hits_this_step": 52,
+      "fetches_this_step": 82,
+      "cumulative_hits": 160,
+      "cumulative_fetches": 757,
+      "cum_expert_fetches": 757,
+      "cum_kv_fetches": 0,
+      "experts_resident": 66,
+      "kv_resident": 7,
+      "eviction": {
+        "kind": "expert",
+        "key_label": "layer 8, expert 32",
+        "reuse_score": 3.92,
+        "needed_again_at_step": 8,
+        "steps_until_needed": 2
+      }
+    },
+    {
+      "step": 7,
+      "token": 7,
+      "hits_this_step": 62,
+      "fetches_this_step": 73,
+      "cumulative_hits": 222,
+      "cumulative_fetches": 830,
+      "cum_expert_fetches": 830,
+      "cum_kv_fetches": 0,
+      "experts_resident": 66,
+      "kv_resident": 8,
+      "eviction": {
+        "kind": "expert",
+        "key_label": "layer 2, expert 61",
+        "reuse_score": 3.94,
+        "needed_again_at_step": 11,
+        "steps_until_needed": 4
+      }
+    },
+    {
+      "step": 8,
+      "token": 8,
+      "hits_this_step": 40,
+      "fetches_this_step": 96,
+      "cumulative_hits": 262,
+      "cumulative_fetches": 926,
+      "cum_expert_fetches": 926,
+      "cum_kv_fetches": 0,
+      "experts_resident": 66,
+      "kv_resident": 9,
+      "eviction": {
+        "kind": "expert",
+        "key_label": "layer 10, expert 44",
+        "reuse_score": 4.89,
+        "needed_again_at_step": 9,
+        "steps_until_needed": 1
+      }
+    },
+    {
+      "step": 9,
+      "token": 9,
+      "hits_this_step": 63,
+      "fetches_this_step": 74,
+      "cumulative_hits": 325,
+      "cumulative_fetches": 1000,
+      "cum_expert_fetches": 1000,
+      "cum_kv_fetches": 0,
+      "experts_resident": 66,
+      "kv_resident": 10,
+      "eviction": {
+        "kind": "expert",
+        "key_label": "layer 1, expert 15",
+        "reuse_score": 4.89,
+        "needed_again_at_step": 10,
+        "steps_until_needed": 1
+      }
+    },
+    {
+      "step": 10,
+      "token": 10,
+      "hits_this_step": 66,
+      "fetches_this_step": 72,
+      "cumulative_hits": 391,
+      "cumulative_fetches": 1072,
+      "cum_expert_fetches": 1072,
+      "cum_kv_fetches": 0,
+      "experts_resident": 66,
+      "kv_resident": 11,
+      "eviction": {
+        "kind": "expert",
+        "key_label": "layer 12, expert 6",
+        "reuse_score": 5.85,
+        "needed_again_at_step": 12,
+        "steps_until_needed": 2
+      }
+    },
+    {
+      "step": 11,
+      "token": 11,
+      "hits_this_step": 55,
+      "fetches_this_step": 84,
+      "cumulative_hits": 446,
+      "cumulative_fetches": 1156,
+      "cum_expert_fetches": 1156,
+      "cum_kv_fetches": 0,
+      "experts_resident": 66,
+      "kv_resident": 12,
+      "eviction": {
+        "kind": "expert",
+        "key_label": "layer 3, expert 61",
+        "reuse_score": 6.83,
+        "needed_again_at_step": 13,
+        "steps_until_needed": 2
+      }
+    },
+    {
+      "step": 12,
+      "token": 12,
+      "hits_this_step": 60,
+      "fetches_this_step": 80,
+      "cumulative_hits": 506,
+      "cumulative_fetches": 1236,
+      "cum_expert_fetches": 1236,
+      "cum_kv_fetches": 0,
+      "experts_resident": 66,
+      "kv_resident": 13,
+      "eviction": {
+        "kind": "expert",
+        "key_label": "layer 11, expert 7",
+        "reuse_score": 6.82,
+        "needed_again_at_step": 13,
+        "steps_until_needed": 1
+      }
+    },
+    {
+      "step": 13,
+      "token": 13,
+      "hits_this_step": 65,
+      "fetches_this_step": 76,
+      "cumulative_hits": 571,
+      "cumulative_fetches": 1312,
+      "cum_expert_fetches": 1312,
+      "cum_kv_fetches": 0,
+      "experts_resident": 66,
+      "kv_resident": 14,
+      "eviction": {
+        "kind": "expert",
+        "key_label": "layer 13, expert 62",
+        "reuse_score": 7.74,
+        "needed_again_at_step": 15,
+        "steps_until_needed": 2
+      }
+    },
+    {
+      "step": 14,
+      "token": 14,
+      "hits_this_step": 64,
+      "fetches_this_step": 78,
+      "cumulative_hits": 635,
+      "cumulative_fetches": 1390,
+      "cum_expert_fetches": 1390,
+      "cum_kv_fetches": 0,
+      "experts_resident": 66,
+      "kv_resident": 15,
+      "eviction": {
+        "kind": "expert",
+        "key_label": "layer 15, expert 29",
+        "reuse_score": 5.82,
+        "needed_again_at_step": 19,
+        "steps_until_needed": 5
+      }
+    },
+    {
+      "step": 15,
+      "token": 15,
+      "hits_this_step": 57,
+      "fetches_this_step": 86,
+      "cumulative_hits": 692,
+      "cumulative_fetches": 1476,
+      "cum_expert_fetches": 1476,
+      "cum_kv_fetches": 0,
+      "experts_resident": 66,
+      "kv_resident": 16,
+      "eviction": {
+        "kind": "expert",
+        "key_label": "layer 15, expert 16",
+        "reuse_score": 1.0,
+        "needed_again_at_step": 26,
+        "steps_until_needed": 11
+      }
+    },
+    {
+      "step": 16,
+      "token": 16,
+      "hits_this_step": 68,
+      "fetches_this_step": 76,
+      "cumulative_hits": 760,
+      "cumulative_fetches": 1552,
+      "cum_expert_fetches": 1552,
+      "cum_kv_fetches": 0,
+      "experts_resident": 66,
+      "kv_resident": 17,
+      "eviction": {
+        "kind": "expert",
+        "key_label": "layer 7, expert 45",
+        "reuse_score": 8.68,
+        "needed_again_at_step": 19,
+        "steps_until_needed": 3
+      }
+    },
+    {
+      "step": 17,
+      "token": 17,
+      "hits_this_step": 57,
+      "fetches_this_step": 88,
+      "cumulative_hits": 817,
+      "cumulative_fetches": 1640,
+      "cum_expert_fetches": 1640,
+      "cum_kv_fetches": 0,
+      "experts_resident": 66,
+      "kv_resident": 18,
+      "eviction": {
+        "kind": "expert",
+        "key_label": "layer 14, expert 42",
+        "reuse_score": 9.53,
+        "needed_again_at_step": 19,
+        "steps_until_needed": 2
+      }
+    },
+    {
+      "step": 18,
+      "token": 18,
+      "hits_this_step": 59,
+      "fetches_this_step": 87,
+      "cumulative_hits": 876,
+      "cumulative_fetches": 1727,
+      "cum_expert_fetches": 1727,
+      "cum_kv_fetches": 0,
+      "experts_resident": 66,
+      "kv_resident": 19,
+      "eviction": {
+        "kind": "expert",
+        "key_label": "layer 15, expert 60",
+        "reuse_score": 10.43,
+        "needed_again_at_step": 23,
+        "steps_until_needed": 5
+      }
+    },
+    {
+      "step": 19,
+      "token": 19,
+      "hits_this_step": 42,
+      "fetches_this_step": 105,
+      "cumulative_hits": 918,
+      "cumulative_fetches": 1832,
+      "cum_expert_fetches": 1832,
+      "cum_kv_fetches": 0,
+      "experts_resident": 66,
+      "kv_resident": 20,
+      "eviction": {
+        "kind": "expert",
+        "key_label": "layer 11, expert 7",
+        "reuse_score": 10.52,
+        "needed_again_at_step": 20,
+        "steps_until_needed": 1
+      }
+    },
+    {
+      "step": 20,
+      "token": 20,
+      "hits_this_step": 61,
+      "fetches_this_step": 87,
+      "cumulative_hits": 979,
+      "cumulative_fetches": 1919,
+      "cum_expert_fetches": 1919,
+      "cum_kv_fetches": 0,
+      "experts_resident": 66,
+      "kv_resident": 21,
+      "eviction": {
+        "kind": "expert",
+        "key_label": "layer 6, expert 24",
+        "reuse_score": 10.57,
+        "needed_again_at_step": 21,
+        "steps_until_needed": 1
+      }
+    },
+    {
+      "step": 21,
+      "token": 21,
+      "hits_this_step": 74,
+      "fetches_this_step": 75,
+      "cumulative_hits": 1053,
+      "cumulative_fetches": 1994,
+      "cum_expert_fetches": 1994,
+      "cum_kv_fetches": 0,
+      "experts_resident": 66,
+      "kv_resident": 22,
+      "eviction": {
+        "kind": "expert",
+        "key_label": "layer 15, expert 12",
+        "reuse_score": 2.95,
+        "needed_again_at_step": 25,
+        "steps_until_needed": 4
+      }
+    },
+    {
+      "step": 22,
+      "token": 22,
+      "hits_this_step": 67,
+      "fetches_this_step": 83,
+      "cumulative_hits": 1120,
+      "cumulative_fetches": 2077,
+      "cum_expert_fetches": 2077,
+      "cum_kv_fetches": 0,
+      "experts_resident": 66,
+      "kv_resident": 23,
+      "eviction": {
+        "kind": "expert",
+        "key_label": "layer 15, expert 6",
+        "reuse_score": 5.79,
+        "needed_again_at_step": 25,
+        "steps_until_needed": 3
+      }
+    },
+    {
+      "step": 23,
+      "token": 23,
+      "hits_this_step": 64,
+      "fetches_this_step": 87,
+      "cumulative_hits": 1184,
+      "cumulative_fetches": 2164,
+      "cum_expert_fetches": 2164,
+      "cum_kv_fetches": 0,
+      "experts_resident": 66,
+      "kv_resident": 24,
+      "eviction": {
+        "kind": "expert",
+        "key_label": "layer 12, expert 30",
+        "reuse_score": 12.29,
+        "needed_again_at_step": 26,
+        "steps_until_needed": 3
+      }
+    },
+    {
+      "step": 24,
+      "token": 24,
+      "hits_this_step": 72,
+      "fetches_this_step": 80,
+      "cumulative_hits": 1256,
+      "cumulative_fetches": 2244,
+      "cum_expert_fetches": 2244,
+      "cum_kv_fetches": 0,
+      "experts_resident": 66,
+      "kv_resident": 25,
+      "eviction": {
+        "kind": "expert",
+        "key_label": "layer 2, expert 45",
+        "reuse_score": 13.19,
+        "needed_again_at_step": 25,
+        "steps_until_needed": 1
+      }
+    },
+    {
+      "step": 25,
+      "token": 25,
+      "hits_this_step": 77,
+      "fetches_this_step": 76,
+      "cumulative_hits": 1333,
+      "cumulative_fetches": 2320,
+      "cum_expert_fetches": 2320,
+      "cum_kv_fetches": 0,
+      "experts_resident": 66,
+      "kv_resident": 26,
+      "eviction": {
+        "kind": "expert",
+        "key_label": "layer 15, expert 60",
+        "reuse_score": 12.08,
+        "needed_again_at_step": 28,
+        "steps_until_needed": 3
+      }
+    },
+    {
+      "step": 26,
+      "token": 26,
+      "hits_this_step": 70,
+      "fetches_this_step": 84,
+      "cumulative_hits": 1403,
+      "cumulative_fetches": 2404,
+      "cum_expert_fetches": 2404,
+      "cum_kv_fetches": 0,
+      "experts_resident": 66,
+      "kv_resident": 27,
+      "eviction": {
+        "kind": "expert",
+        "key_label": "layer 8, expert 14",
+        "reuse_score": 14.11,
+        "needed_again_at_step": 28,
+        "steps_until_needed": 2
+      }
+    },
+    {
+      "step": 27,
+      "token": 27,
+      "hits_this_step": 49,
+      "fetches_this_step": 106,
+      "cumulative_hits": 1452,
+      "cumulative_fetches": 2510,
+      "cum_expert_fetches": 2510,
+      "cum_kv_fetches": 0,
+      "experts_resident": 66,
+      "kv_resident": 28,
+      "eviction": {
+        "kind": "expert",
+        "key_label": "layer 15, expert 16",
+        "reuse_score": 1.94,
+        "needed_again_at_step": null,
+        "steps_until_needed": null
+      }
+    },
+    {
+      "step": 28,
+      "token": 28,
+      "hits_this_step": 80,
+      "fetches_this_step": 76,
+      "cumulative_hits": 1532,
+      "cumulative_fetches": 2586,
+      "cum_expert_fetches": 2586,
+      "cum_kv_fetches": 0,
+      "experts_resident": 66,
+      "kv_resident": 29,
+      "eviction": {
+        "kind": "expert",
+        "key_label": "layer 15, expert 57",
+        "reuse_score": 1.95,
+        "needed_again_at_step": 31,
+        "steps_until_needed": 3
+      }
+    },
+    {
+      "step": 29,
+      "token": 29,
+      "hits_this_step": 85,
+      "fetches_this_step": 72,
+      "cumulative_hits": 1617,
+      "cumulative_fetches": 2658,
+      "cum_expert_fetches": 2658,
+      "cum_kv_fetches": 0,
+      "experts_resident": 66,
+      "kv_resident": 30,
+      "eviction": {
+        "kind": "expert",
+        "key_label": "layer 15, expert 60",
+        "reuse_score": 13.85,
+        "needed_again_at_step": 33,
+        "steps_until_needed": 4
+      }
+    },
+    {
+      "step": 30,
+      "token": 30,
+      "hits_this_step": 67,
+      "fetches_this_step": 91,
+      "cumulative_hits": 1684,
+      "cumulative_fetches": 2749,
+      "cum_expert_fetches": 2749,
+      "cum_kv_fetches": 0,
+      "experts_resident": 66,
+      "kv_resident": 31,
+      "eviction": {
+        "kind": "expert",
+        "key_label": "layer 15, expert 38",
+        "reuse_score": 1.0,
+        "needed_again_at_step": 38,
+        "steps_until_needed": 8
+      }
+    },
+    {
+      "step": 31,
+      "token": 31,
+      "hits_this_step": 49,
+      "fetches_this_step": 110,
+      "cumulative_hits": 1733,
+      "cumulative_fetches": 2859,
+      "cum_expert_fetches": 2859,
+      "cum_kv_fetches": 0,
+      "experts_resident": 66,
+      "kv_resident": 32,
+      "eviction": {
+        "kind": "expert",
+        "key_label": "layer 15, expert 6",
+        "reuse_score": 7.52,
+        "needed_again_at_step": 39,
+        "steps_until_needed": 8
+      }
+    },
+    {
+      "step": 32,
+      "token": 32,
+      "hits_this_step": 76,
+      "fetches_this_step": 84,
+      "cumulative_hits": 1809,
+      "cumulative_fetches": 2943,
+      "cum_expert_fetches": 2943,
+      "cum_kv_fetches": 0,
+      "experts_resident": 66,
+      "kv_resident": 33,
+      "eviction": {
+        "kind": "expert",
+        "key_label": "layer 15, expert 32",
+        "reuse_score": 6.77,
+        "needed_again_at_step": 39,
+        "steps_until_needed": 7
+      }
+    },
+    {
+      "step": 33,
+      "token": 33,
+      "hits_this_step": 86,
+      "fetches_this_step": 75,
+      "cumulative_hits": 1895,
+      "cumulative_fetches": 3018,
+      "cum_expert_fetches": 3018,
+      "cum_kv_fetches": 0,
+      "experts_resident": 66,
+      "kv_resident": 34,
+      "eviction": {
+        "kind": "expert",
+        "key_label": "layer 2, expert 14",
+        "reuse_score": 16.58,
+        "needed_again_at_step": 35,
+        "steps_until_needed": 2
+      }
+    },
+    {
+      "step": 34,
+      "token": 34,
+      "hits_this_step": 79,
+      "fetches_this_step": 83,
+      "cumulative_hits": 1974,
+      "cumulative_fetches": 3101,
+      "cum_expert_fetches": 3101,
+      "cum_kv_fetches": 0,
+      "experts_resident": 66,
+      "kv_resident": 35,
+      "eviction": {
+        "kind": "expert",
+        "key_label": "layer 15, expert 60",
+        "reuse_score": 14.53,
+        "needed_again_at_step": 38,
+        "steps_until_needed": 4
+      }
+    },
+    {
+      "step": 35,
+      "token": 35,
+      "hits_this_step": 92,
+      "fetches_this_step": 71,
+      "cumulative_hits": 2066,
+      "cumulative_fetches": 3172,
+      "cum_expert_fetches": 3172,
+      "cum_kv_fetches": 0,
+      "experts_resident": 66,
+      "kv_resident": 36,
+      "eviction": {
+        "kind": "expert",
+        "key_label": "layer 15, expert 57",
+        "reuse_score": 3.87,
+        "needed_again_at_step": 36,
+        "steps_until_needed": 1
+      }
+    },
+    {
+      "step": 36,
+      "token": 36,
+      "hits_this_step": 86,
+      "fetches_this_step": 78,
+      "cumulative_hits": 2152,
+      "cumulative_fetches": 3250,
+      "cum_expert_fetches": 3250,
+      "cum_kv_fetches": 0,
+      "experts_resident": 66,
+      "kv_resident": 37,
+      "eviction": {
+        "kind": "expert",
+        "key_label": "layer 9, expert 50",
+        "reuse_score": 17.52,
+        "needed_again_at_step": 38,
+        "steps_until_needed": 2
+      }
+    },
+    {
+      "step": 37,
+      "token": 37,
+      "hits_this_step": 94,
+      "fetches_this_step": 71,
+      "cumulative_hits": 2246,
+      "cumulative_fetches": 3321,
+      "cum_expert_fetches": 3321,
+      "cum_kv_fetches": 0,
+      "experts_resident": 66,
+      "kv_resident": 38,
+      "eviction": {
+        "kind": "expert",
+        "key_label": "layer 10, expert 11",
+        "reuse_score": 18.16,
+        "needed_again_at_step": 38,
+        "steps_until_needed": 1
+      }
+    },
+    {
+      "step": 38,
+      "token": 38,
+      "hits_this_step": 92,
+      "fetches_this_step": 74,
+      "cumulative_hits": 2338,
+      "cumulative_fetches": 3395,
+      "cum_expert_fetches": 3395,
+      "cum_kv_fetches": 0,
+      "experts_resident": 66,
+      "kv_resident": 39,
+      "eviction": {
+        "kind": "expert",
+        "key_label": "layer 15, expert 24",
+        "reuse_score": 7.31,
+        "needed_again_at_step": 45,
+        "steps_until_needed": 7
+      }
+    },
+    {
+      "step": 39,
+      "token": 39,
+      "hits_this_step": 68,
+      "fetches_this_step": 99,
+      "cumulative_hits": 2406,
+      "cumulative_fetches": 3494,
+      "cum_expert_fetches": 3494,
+      "cum_kv_fetches": 0,
+      "experts_resident": 66,
+      "kv_resident": 40,
+      "eviction": {
+        "kind": "expert",
+        "key_label": "layer 15, expert 39",
+        "reuse_score": 1.0,
+        "needed_again_at_step": 58,
+        "steps_until_needed": 19
+      }
+    },
+    {
+      "step": 40,
+      "token": 40,
+      "hits_this_step": 52,
+      "fetches_this_step": 116,
+      "cumulative_hits": 2458,
+      "cumulative_fetches": 3610,
+      "cum_expert_fetches": 3610,
+      "cum_kv_fetches": 0,
+      "experts_resident": 66,
+      "kv_resident": 41,
+      "eviction": {
+        "kind": "expert",
+        "key_label": "layer 15, expert 6",
+        "reuse_score": 8.21,
+        "needed_again_at_step": 51,
+        "steps_until_needed": 11
+      }
+    },
+    {
+      "step": 41,
+      "token": 41,
+      "hits_this_step": 78,
+      "fetches_this_step": 91,
+      "cumulative_hits": 2536,
+      "cumulative_fetches": 3701,
+      "cum_expert_fetches": 3701,
+      "cum_kv_fetches": 0,
+      "experts_resident": 66,
+      "kv_resident": 42,
+      "eviction": {
+        "kind": "expert",
+        "key_label": "layer 15, expert 37",
+        "reuse_score": 7.5,
+        "needed_again_at_step": null,
+        "steps_until_needed": null
+      }
+    },
+    {
+      "step": 42,
+      "token": 42,
+      "hits_this_step": 86,
+      "fetches_this_step": 84,
+      "cumulative_hits": 2622,
+      "cumulative_fetches": 3785,
+      "cum_expert_fetches": 3785,
+      "cum_kv_fetches": 0,
+      "experts_resident": 66,
+      "kv_resident": 43,
+      "eviction": {
+        "kind": "expert",
+        "key_label": "layer 2, expert 14",
+        "reuse_score": 18.84,
+        "needed_again_at_step": 44,
+        "steps_until_needed": 2
+      }
+    },
+    {
+      "step": 43,
+      "token": 43,
+      "hits_this_step": 81,
+      "fetches_this_step": 90,
+      "cumulative_hits": 2703,
+      "cumulative_fetches": 3875,
+      "cum_expert_fetches": 3875,
+      "cum_kv_fetches": 0,
+      "experts_resident": 66,
+      "kv_resident": 44,
+      "eviction": {
+        "kind": "expert",
+        "key_label": "layer 15, expert 11",
+        "reuse_score": 2.79,
+        "needed_again_at_step": 44,
+        "steps_until_needed": 1
+      }
+    },
+    {
+      "step": 44,
+      "token": 44,
+      "hits_this_step": 91,
+      "fetches_this_step": 81,
+      "cumulative_hits": 2794,
+      "cumulative_fetches": 3956,
+      "cum_expert_fetches": 3956,
+      "cum_kv_fetches": 0,
+      "experts_resident": 66,
+      "kv_resident": 45,
+      "eviction": {
+        "kind": "expert",
+        "key_label": "layer 15, expert 43",
+        "reuse_score": 4.83,
+        "needed_again_at_step": 51,
+        "steps_until_needed": 7
+      }
+    },
+    {
+      "step": 45,
+      "token": 45,
+      "hits_this_step": 90,
+      "fetches_this_step": 83,
+      "cumulative_hits": 2884,
+      "cumulative_fetches": 4039,
+      "cum_expert_fetches": 4039,
+      "cum_kv_fetches": 0,
+      "experts_resident": 66,
+      "kv_resident": 46,
+      "eviction": {
+        "kind": "expert",
+        "key_label": "layer 2, expert 14",
+        "reuse_score": 19.57,
+        "needed_again_at_step": 46,
+        "steps_until_needed": 1
+      }
+    },
+    {
+      "step": 46,
+      "token": 46,
+      "hits_this_step": 98,
+      "fetches_this_step": 76,
+      "cumulative_hits": 2982,
+      "cumulative_fetches": 4115,
+      "cum_expert_fetches": 4115,
+      "cum_kv_fetches": 0,
+      "experts_resident": 66,
+      "kv_resident": 47,
+      "eviction": {
+        "kind": "expert",
+        "key_label": "layer 10, expert 11",
+        "reuse_score": 20.36,
+        "needed_again_at_step": 49,
+        "steps_until_needed": 3
+      }
+    },
+    {
+      "step": 47,
+      "token": 47,
+      "hits_this_step": 93,
+      "fetches_this_step": 82,
+      "cumulative_hits": 3075,
+      "cumulative_fetches": 4197,
+      "cum_expert_fetches": 4197,
+      "cum_kv_fetches": 0,
+      "experts_resident": 66,
+      "kv_resident": 48,
+      "eviction": {
+        "kind": "expert",
+        "key_label": "layer 15, expert 57",
+        "reuse_score": 7.57,
+        "needed_again_at_step": 52,
+        "steps_until_needed": 5
+      }
+    },
+    {
+      "step": 48,
+      "token": 48,
+      "hits_this_step": 92,
+      "fetches_this_step": 84,
+      "cumulative_hits": 3167,
+      "cumulative_fetches": 4281,
+      "cum_expert_fetches": 4281,
+      "cum_kv_fetches": 0,
+      "experts_resident": 66,
+      "kv_resident": 49,
+      "eviction": {
+        "kind": "expert",
+        "key_label": "layer 3, expert 19",
+        "reuse_score": 21.07,
+        "needed_again_at_step": 50,
+        "steps_until_needed": 2
+      }
+    },
+    {
+      "step": 49,
+      "token": 49,
+      "hits_this_step": 98,
+      "fetches_this_step": 79,
+      "cumulative_hits": 3265,
+      "cumulative_fetches": 4360,
+      "cum_expert_fetches": 4360,
+      "cum_kv_fetches": 0,
+      "experts_resident": 66,
+      "kv_resident": 50,
+      "eviction": {
+        "kind": "expert",
+        "key_label": "layer 15, expert 52",
+        "reuse_score": 1.0,
+        "needed_again_at_step": null,
+        "steps_until_needed": null
+      }
+    },
+    {
+      "step": 50,
+      "token": 50,
+      "hits_this_step": 101,
+      "fetches_this_step": 77,
+      "cumulative_hits": 3366,
+      "cumulative_fetches": 4437,
+      "cum_expert_fetches": 4437,
+      "cum_kv_fetches": 0,
+      "experts_resident": 66,
+      "kv_resident": 51,
+      "eviction": {
+        "kind": "expert",
+        "key_label": "layer 15, expert 38",
+        "reuse_score": 2.85,
+        "needed_again_at_step": null,
+        "steps_until_needed": null
+      }
+    },
+    {
+      "step": 51,
+      "token": 51,
+      "hits_this_step": 88,
+      "fetches_this_step": 91,
+      "cumulative_hits": 3454,
+      "cumulative_fetches": 4528,
+      "cum_expert_fetches": 4528,
+      "cum_kv_fetches": 0,
+      "experts_resident": 66,
+      "kv_resident": 52,
+      "eviction": null
+    },
+    {
+      "step": 52,
+      "token": 52,
+      "hits_this_step": 73,
+      "fetches_this_step": 107,
+      "cumulative_hits": 3527,
+      "cumulative_fetches": 4635,
+      "cum_expert_fetches": 4635,
+      "cum_kv_fetches": 0,
+      "experts_resident": 66,
+      "kv_resident": 53,
+      "eviction": {
+        "kind": "expert",
+        "key_label": "layer 12, expert 30",
+        "reuse_score": 21.89,
+        "needed_again_at_step": 53,
+        "steps_until_needed": 1
+      }
+    },
+    {
+      "step": 53,
+      "token": 53,
+      "hits_this_step": 103,
+      "fetches_this_step": 78,
+      "cumulative_hits": 3630,
+      "cumulative_fetches": 4713,
+      "cum_expert_fetches": 4713,
+      "cum_kv_fetches": 0,
+      "experts_resident": 66,
+      "kv_resident": 54,
+      "eviction": {
+        "kind": "expert",
+        "key_label": "layer 15, expert 32",
+        "reuse_score": 12.83,
+        "needed_again_at_step": 58,
+        "steps_until_needed": 5
+      }
+    },
+    {
+      "step": 54,
+      "token": 54,
+      "hits_this_step": 110,
+      "fetches_this_step": 72,
+      "cumulative_hits": 3740,
+      "cumulative_fetches": 4785,
+      "cum_expert_fetches": 4785,
+      "cum_kv_fetches": 0,
+      "experts_resident": 66,
+      "kv_resident": 55,
+      "eviction": {
+        "kind": "expert",
+        "key_label": "layer 15, expert 35",
+        "reuse_score": 10.92,
+        "needed_again_at_step": 58,
+        "steps_until_needed": 4
+      }
+    },
+    {
+      "step": 55,
+      "token": 55,
+      "hits_this_step": 108,
+      "fetches_this_step": 75,
+      "cumulative_hits": 3848,
+      "cumulative_fetches": 4860,
+      "cum_expert_fetches": 4860,
+      "cum_kv_fetches": 0,
+      "experts_resident": 66,
+      "kv_resident": 56,
+      "eviction": {
+        "kind": "expert",
+        "key_label": "layer 15, expert 60",
+        "reuse_score": 18.99,
+        "needed_again_at_step": 57,
+        "steps_until_needed": 2
+      }
+    },
+    {
+      "step": 56,
+      "token": 56,
+      "hits_this_step": 101,
+      "fetches_this_step": 83,
+      "cumulative_hits": 3949,
+      "cumulative_fetches": 4943,
+      "cum_expert_fetches": 4943,
+      "cum_kv_fetches": 0,
+      "experts_resident": 66,
+      "kv_resident": 57,
+      "eviction": {
+        "kind": "expert",
+        "key_label": "layer 15, expert 57",
+        "reuse_score": 9.23,
+        "needed_again_at_step": null,
+        "steps_until_needed": null
+      }
+    },
+    {
+      "step": 57,
+      "token": 57,
+      "hits_this_step": 100,
+      "fetches_this_step": 85,
+      "cumulative_hits": 4049,
+      "cumulative_fetches": 5028,
+      "cum_expert_fetches": 5028,
+      "cum_kv_fetches": 0,
+      "experts_resident": 66,
+      "kv_resident": 58,
+      "eviction": {
+        "kind": "expert",
+        "key_label": "layer 15, expert 36",
+        "reuse_score": 20.83,
+        "needed_again_at_step": 58,
+        "steps_until_needed": 1
+      }
+    },
+    {
+      "step": 58,
+      "token": 58,
+      "hits_this_step": 105,
+      "fetches_this_step": 81,
+      "cumulative_hits": 4154,
+      "cumulative_fetches": 5109,
+      "cum_expert_fetches": 5109,
+      "cum_kv_fetches": 0,
+      "experts_resident": 66,
+      "kv_resident": 59,
+      "eviction": {
+        "kind": "expert",
+        "key_label": "layer 15, expert 3",
+        "reuse_score": 14.18,
+        "needed_again_at_step": null,
+        "steps_until_needed": null
+      }
+    },
+    {
+      "step": 59,
+      "token": 59,
+      "hits_this_step": 111,
+      "fetches_this_step": 76,
+      "cumulative_hits": 4265,
+      "cumulative_fetches": 5185,
+      "cum_expert_fetches": 5185,
+      "cum_kv_fetches": 0,
+      "experts_resident": 66,
+      "kv_resident": 60,
+      "eviction": {
+        "kind": "expert",
+        "key_label": "layer 11, expert 43",
+        "reuse_score": 24.59,
+        "needed_again_at_step": null,
+        "steps_until_needed": null
+      }
+    }
+  ],
+  "prompt_id": 4,
+  "divergence_step": 5
+}

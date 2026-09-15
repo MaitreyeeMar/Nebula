@@ -1,0 +1,9 @@
+allocator,total_stall_ns,cxl_fetches,hbm_hits,overflow_events,category,n_prompts
+hbm_only,21152000000.0,0,7248,21152,code,3
+static_partition,4533765120.0,23040,5310,0,code,3
+lru,4545542700.0,28350,0,0,code,3
+dynamic_joint,2904049724.0,14758,13592,0,code,3
+hbm_only,103911000000.0,0,10079,103911,kv_heavy,12
+static_partition,18135060480.0,92160,21240,0,kv_heavy,12
+lru,18182170800.0,113400,0,0,kv_heavy,12
+dynamic_joint,15388629934.0,78203,35197,0,kv_heavy,12
