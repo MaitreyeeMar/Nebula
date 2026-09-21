@@ -88,26 +88,4 @@ collect_traces_v2.py   - Colab script, real OLMoE generation -> CSV trace
 dashboard.py           - Plotly Dash app, everything above feeds into this
 ```
 
-## Things worth knowing before you touch the allocator code
 
-- OLMoE-1B-7B routes top-8 of 64 experts per layer, not top-2. We got this
-  wrong on the first pass and it changed the results meaningfully once fixed
-  - if you're adapting this to a different model, check its actual routing
-  config, don't assume.
-- The first version of the dynamic allocator scored experts by lifetime
-  usage count and it lost to plain LRU. Turned out old activity from a
-  completely different prompt was still counted as "popular." Switched to a
-  time-decayed score instead. If you're extending this, watch out for the
-  same staleness trap.
-- The 800MB figure used throughout is not a real GPU's HBM capacity, it's an
-  effective residency budget scaled to make memory pressure visible at the
-  size of our trace set. Don't quote it as if it were a real accelerator's
-  spec.
-
-## What's not done
-
-Second MoE model (only tested on OLMoE), no physical CXL hardware
-measurements (QEMU emulation + published-spec timing model only, see the
-report's "Hardware-Level Validation" section for exactly what that does and
-doesn't cover), and the capacity sweep only samples 6 points so the 1.6GB-3.2GB
-crossover region is not finely resolved.
